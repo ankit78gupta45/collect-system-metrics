@@ -1,0 +1,364 @@
+{
+  "took" : 3,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 17543,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOW",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.790Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\NVIDIA Corporation\\Update Core\\NvBackend.exe\"",
+          "cpu" : {
+            "user" : 15,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 46,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 3141632,
+            "rss" : 9121792,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "NvBackend.exe",
+          "pid" : 6024,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOY",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.797Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\System32\\svchost.exe -k UnistackSvcGroup",
+          "cpu" : {
+            "user" : 390,
+            "user_p" : 0,
+            "system" : 171,
+            "total" : 561,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 9437184,
+            "rss" : 36028416,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "svchost.exe",
+          "pid" : 5216,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOb",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.807Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\NewSoftware's\\Folder Lock\\FLComServCtrl.exe\" ",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 31,
+            "total" : 31,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 1572864,
+            "rss" : 7622656,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "FLComServCtrl.exe",
+          "pid" : 6032,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOc",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.810Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Users\\ankit\\AppData\\Roaming\\uTorrent\\uTorrent.exe\"  /MINIMIZED",
+          "cpu" : {
+            "user" : 531,
+            "user_p" : 4.0E-4,
+            "system" : 734,
+            "total" : 1265,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 14315520,
+            "rss" : 29442048,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "uTorrent.exe",
+          "pid" : 5992,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOe",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.817Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\NewSoftware's\\Folder Lock\\FLComServ.exe\" -Embedding",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 15,
+            "total" : 15,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 1847296,
+            "rss" : 7868416,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "FLComServ.exe",
+          "pid" : 5480,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOj",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.833Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\4KDownload\\4kvideodownloader\\4kvideodownloader.exe\" ",
+          "cpu" : {
+            "user" : 500,
+            "user_p" : 0,
+            "system" : 343,
+            "total" : 843,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 59850752,
+            "rss" : 37752832,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "4kvideodownloader.exe",
+          "pid" : 7592,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOk",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.836Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --started-from-file \"C:\\Users\\ankit\\Videos\\4K Video Downloader\\N Queen Problem Using Backtracking Algorithm.mp4\"",
+          "cpu" : {
+            "user" : 40640,
+            "user_p" : 0.0045,
+            "system" : 3062,
+            "total" : 43702,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 99368960,
+            "rss" : 73228288,
+            "rss_p" : 0.02,
+            "share" : 0
+          },
+          "name" : "vlc.exe",
+          "pid" : 6212,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyOr",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.858Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_2016.29.13.0_x64__8wekyb3d8bbwe\\WinStore.Mobile.exe\" -ServerName:App.AppXqagq4n4gvy0tjw576pgh6xr601s1h1mv.mca",
+          "cpu" : {
+            "user" : 234,
+            "user_p" : 0,
+            "system" : 187,
+            "total" : 421,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 23302144,
+            "rss" : 38584320,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "WinStore.Mobile.exe",
+          "pid" : 6468,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyO0",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.887Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup,WebFontsIntervention<WebFontsIntervention --lang=en-US --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/1DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Postperiod_AnswersInSuggest_A1/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PreRead/Default/*QUIC/FlagDisabled/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Control50pct/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_49/*UMA-Uniformity-Trial-10-Percent/group_09/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_01/*UMA-Uniformity-Trial-5-Percent/group_01/*UMA-Uniformity-Trial-50-Percent/group_01/*UseDelayAgnosticAEC/DefaultEnabled/*WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel=\"4364.4.2040934761\\777962533\" /prefetch:1",
+          "cpu" : {
+            "user" : 1484,
+            "user_p" : 0,
+            "system" : 125,
+            "total" : 1609,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 46428160,
+            "rss" : 53858304,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 4964,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "DESKTOP-1OUDTHD\\ankit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjl3i6dzI95Oq0LyO1",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T09:39:14.890Z",
+        "beat" : {
+          "hostname" : "DESKTOP-1OUDTHD",
+          "name" : "DESKTOP-1OUDTHD"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\wbem\\wmiprvse.exe",
+          "cpu" : {
+            "user" : 125,
+            "user_p" : 0.0073,
+            "system" : 359,
+            "total" : 484,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 3260416,
+            "rss" : 9224192,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "WmiPrvSE.exe",
+          "pid" : 4732,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "NT AUTHORITY\\NETWORK SERVICE"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
